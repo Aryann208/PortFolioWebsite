@@ -238,7 +238,7 @@ export default function Home() {
                   Kalinga Institute of Industrial Technology
                 </h2>
                 <strong className="text-gray-400">2019- Ongoing</strong> <br />
-                <strong className="mt-5 "> Bachelor's in Technology</strong>
+                <strong className="mt-5 "> Bachelors in Technology</strong>
                 <h2> Computer Science and System Engineering </h2>
               </div>
             </div>
