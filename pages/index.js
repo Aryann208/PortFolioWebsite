@@ -39,12 +39,12 @@ export default function Home() {
           <nav className="py-5 mb-3 flex justify-between">
             <h1 className="text-xl font-burtons">WebDweebs</h1>
             <ul className="flex items-center ">
-              <li className="mr-10">About</li>
-              <li>Projects</li>
+              <li className="mr-10"><a href="https://aryann208.github.io/React-Rundown-Projects-/">React Component Projects</a></li>
+              
               <li>
                 <a
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1yZW4oBmh11YISmWrG7--aCrfKTk0jxMR/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1tueZplt9LLTndSIxNVujkg9h8BMJWiLO/view?usp=share_link"
                 >
                   Resume
                 </a>
@@ -76,7 +76,7 @@ export default function Home() {
             <a href="https://github.com/Aryann208">
               <AiFillGithub />
             </a>
-            <AiFillYoutube />
+            
           </div>
         </section>
 
@@ -238,7 +238,7 @@ export default function Home() {
                   Kalinga Institute of Industrial Technology
                 </h2>
                 <strong className="text-gray-400">2019- Ongoing</strong> <br />
-                <strong className="mt-5 "> Bachelors in Technology</strong>
+                <strong className="mt-5 "> Bachelor's in Technology</strong>
                 <h2> Computer Science and System Engineering </h2>
               </div>
             </div>
