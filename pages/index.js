@@ -34,12 +34,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10">
+      <main className="bg-yellow-100 px-10">
         <section className=" min-h-screen">
           <nav className="py-5 mb-3 flex justify-between">
             <h1 className="text-xl font-burtons">WebDweebs</h1>
             <ul className="flex items-center ">
-              <li className="mr-10"><a href="https://aryann208.github.io/React-Rundown-Projects-/">React Component Projects</a></li>
+              <li className="mr-10"><a href="https://aryann208.github.io/React-Rundown-Projects-/"><strong>React Component Projects</strong></a></li>
               
               <li>
                 <a
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80  overflow-hidden">
             <Image src={avatarPic} fill style={{ objectFit: "cover" }} />
           </div>
-          <div className="text-center px-60 py-10">
+          <div className="text-center w-4/5 mx-auto py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium ">
               Aryan Trivedi
             </h2>
@@ -81,6 +81,44 @@ export default function Home() {
         </section>
 
         <section className="my-10 py-10 bg-gray-500">
+          <div className=" bg-black w-11/12 mt-10 mx-auto">
+            <h1 className="text-4xl font-mono text-center text-white py-3 ">
+              React JS Project
+            </h1>
+            <div className="my-10 py-5 bg-gray-400">
+              <h2 className=" ml-2 text-2xl text-white font-mono ">
+                1. Food Order App ( React Foods)
+              </h2>
+              <p className="text-white ml-12 font-serif py-3  ">
+                A React JS app that allows usre to place order from menu in
+                desired quantity and after placing the order further modify
+                using Cart button . The following project uses functionalities
+                of React JS such as useState(), useEffect(),useContext().
+              </p>
+              <div className="w-11/12 mx-auto">
+                <Image className="w-11/12" src={ProjectRJSImage1}></Image>
+                <Image className="w-11/12" src={ProjectRJSImage2}></Image>
+                <p className="text-white  font-serif py-3  ">
+                  <div className="flex">
+                    <h2 className="text-1xl uppercase font-bold font-sans mr-3 justify-center align-bottom">
+                      Deployed Link :
+                    </h2>
+                    <a href="https://aryann208.github.io/FoodOrderReactApp/">
+                      https://aryann208.github.io/FoodOrderReactApp/
+                    </a>
+                  </div>
+                  <div className="flex">
+                    <h2 className="text-1xl uppercase font-bold font-sans mr-3 justify-center align-bottom">
+                      Repository Link :
+                    </h2>
+                    <a href="https://github.com/Aryann208/Food-Order-React-App">
+                      https://github.com/Aryann208/Food-Order-React-App
+                    </a>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
           <div>
             <h2 className="text-5xl font-medium font-mono text-center   ">
               Projects
@@ -184,44 +222,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" bg-black w-11/12 mt-10 mx-auto">
-            <h1 className="text-4xl font-mono text-center text-white py-3 ">
-              React JS Project
-            </h1>
-            <div className="my-10 py-5 bg-gray-400">
-              <h2 className=" ml-2 text-2xl text-white font-mono ">
-                1. Food Order App ( React Foods)
-              </h2>
-              <p className="text-white ml-12 font-serif py-3  ">
-                A React JS app that allows usre to place order from menu in
-                desired quantity and after placing the order further modify
-                using Cart button . The following project uses functionalities
-                of React JS such as useState(), useEffect(),useContext().
-              </p>
-              <div className="w-11/12 mx-auto">
-                <Image className="w-11/12" src={ProjectRJSImage1}></Image>
-                <Image className="w-11/12" src={ProjectRJSImage2}></Image>
-                <p className="text-white  font-serif py-3  ">
-                  <div className="flex">
-                    <h2 className="text-1xl uppercase font-bold font-sans mr-3 justify-center align-bottom">
-                      Deployed Link :
-                    </h2>
-                    <a href="https://aryann208.github.io/FoodOrderReactApp/">
-                      https://aryann208.github.io/FoodOrderReactApp/
-                    </a>
-                  </div>
-                  <div className="flex">
-                    <h2 className="text-1xl uppercase font-bold font-sans mr-3 justify-center align-bottom">
-                      Repository Link :
-                    </h2>
-                    <a href="https://github.com/Aryann208/Food-Order-React-App">
-                      https://github.com/Aryann208/Food-Order-React-App
-                    </a>
-                  </div>
-                </p>
-              </div>
-            </div>
-          </div>
+          
         </section>
 
         <footer className="w-100 h-full  mt-20 bg-gray-600 flex ">
