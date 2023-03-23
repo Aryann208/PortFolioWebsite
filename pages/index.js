@@ -245,7 +245,9 @@ export default function Home() {
           <div className="flex flex-col justify-center p-5 ">
             <div className="flex align-center py-3 ">
               <div className=" bg-white w-7 h-7 flex justify-center items-center rounded-lg mx-3 ">
-                <AiFillGithub className=" text-2xl " />
+                <a target="_blank" href="https://github.com/Aryann208">
+                  <AiFillGithub className=" text-2xl " />
+                </a>
               </div>
               <span className="text-white">
                 <a
@@ -267,7 +269,12 @@ export default function Home() {
 
             <div className="flex align-center py-3">
               <div className=" bg-white w-7 h-7 flex justify-center items-center rounded-lg mx-3 ">
-                <AiFillLinkedin className=" text-2xl " />
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/aryan-trivedi-14279a190"
+                >
+                  <AiFillLinkedin className=" text-2xl " />
+                </a>
               </div>
               <a
                 target="_blank"
