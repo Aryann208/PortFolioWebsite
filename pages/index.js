@@ -36,7 +36,7 @@ export default function Home() {
                   target="_blank"
                   href="https://aryann208.github.io/React-Rundown-Projects-/"
                 >
-                  <strong>React Component Projects</strong>
+                 <strong className={classes.btn}>React Component Projects</strong>
                 </a>
               </li>
 
